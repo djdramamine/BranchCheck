@@ -3,6 +3,7 @@
 
 class Incrementer {
     public:
-        static int increment(int x);
+        ~Incrementer() = default;
+        virtual int increment(int x) = 0;
 };
 #endif
