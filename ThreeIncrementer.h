@@ -8,6 +8,7 @@ class ThreeIncrementer final : public Incrementer{
     public:
         ~ThreeIncrementer() = default;
         int increment(int x) override;
+        int decrement(int x) override;
 };
 
 #endif
