@@ -8,6 +8,7 @@ class FiveIncrementer final : public Incrementer {
     public:
         ~FiveIncrementer() = default;
         int increment(int x) override;
+        int decrement(int x) override;
 };
 
 #endif

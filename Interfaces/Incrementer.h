@@ -5,5 +5,6 @@ class Incrementer {
     public:
         ~Incrementer() = default;
         virtual int increment(int x) = 0;
+        virtual int decrement(int x) = 0;
 };
 #endif
