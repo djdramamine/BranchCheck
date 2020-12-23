@@ -5,5 +5,5 @@ int FiveIncrementer::increment(int x) {
 }
 
 int FiveIncrementer::decrement(int x) {
-    return 5-x; //No it isnt
+    return x-5; //No it isnt
 }

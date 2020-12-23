@@ -5,5 +5,5 @@ int ThreeIncrementer::increment(int x) {
 }
 
 int ThreeIncrementer::decrement(int x) {
-    return 3-x;
+    return x-3;
 }
